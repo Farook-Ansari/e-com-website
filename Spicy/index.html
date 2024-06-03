@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spices</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome CDN -->
+</head>
+<body>
+    <!----Navbar-->
+
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SPICES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>      
+            </ul>            
+            <a class="btn p-2 my-lg-1 my-2 custom-signin-btn"  href="#">  Sign In </a>
+            <i class="fas fa-shopping-cart " id="cart-icon"></i> <!-- Cart Icon -->
+
+            <div class="cart">
+              <div class="cart-title">Cart Items</div>
+              <div class="cart-container">
+
+               <!-- <div class="cart-box">
+                 <img src="img1.png" class="cart-img">
+                 <div class="detail-box">
+                    <div class="cart-food-title">Turmeric</div>
+                    <div class="price-box">
+                      <div class="product-price">RS.50</div>
+                      <div class="cart-amt">RS.50</div>
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                 </div>
+                 <i class="fa-solid fa-trash cart-remove"></i>
+               </div> -->
+
+              <!-- <div class="cart-box">
+
+                <img src="img2.png" class="cart-img">
+                <div class="detail-box">
+                   <div class="cart-food-title">Turmeric</div>
+                   <div class="price-box">
+                     <div class="product-price">50</div>
+                     <div class="cart-amt">50</div>
+                   </div>
+                   <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fa-solid fa-trash cart-remove"></i>
+               </div> -->
+
+              </div>
+
+              <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">RS.0</div>
+              </div>
+
+                <button class="btn-buy">BUY</button>
+                <i class="fa-solid fa-xmark cart-close"></i>
+
+            </div>
+
+        
+           
+              </div>
+            </div>
+
+
+
+        </div>
+      </nav>
+    
+      
+      <!----Home-->
+
+      <section id="home">
+          <h1 class="text-center">ORGANIC SPICES</h1>
+          <p>Variety's the very spice of life,That gives it all its flavor</p>
+          <div class="input-group m-4">
+              <input type="text" class="form-control" placeholder="Email Address">
+            <button class="btn signin">Get Started</button>
+          </div>
+      </section>
+
+
+      <!-----About---->
+
+      <section id="about">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12 my-2">
+                        <img src="about.png" class="img-fluid">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
+                      <h1>ABOUT US</h1>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam obcaecati amet repudiandae, temporibus commodi provident. Optio soluta neque voluptate! Voluptas rerum velit optio id. Laborum ut architecto quidem deserunt non?Laboriosam obcaecati amet repudiandae, temporibus commodi provident. Optio soluta neque voluptate! Voluptas rerum velit optio id. Laborum ut architecto quidem deserunt non?Laboriosam obcaecati amet repudiandae, temporibus commodi provident. Optio soluta neque voluptate! Voluptas rerum velit optio id. Laborum ut architecto quidem deserunt non?Laboriosam obcaecati amet repudiandae, temporibus commodi provident. Optio soluta neque voluptate! Voluptas rerum velit optio id. Laborum ut architecto quidem deserunt non?</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+        <!-----product---->
+
+
+      <section id="product">
+          <div class="container m-5">
+            <h1 class="text-center my-5">OUR PRODUCTS</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 ">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img1.png" class="card-img-top product-img">
+                          <h5 class="card-title">Turmeric</h5>
+                          <h6 class="price">RS.50</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img2.png" class="card-img-top product-img">
+                          <h5 class="card-title">Red Chilli Powder</h5>
+                          <h6 class="price">RS.75</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img3.png" class="card-img-top product-img">
+                          <h5 class="card-title">Garam Masala</h5>
+                          <h6 class="price">RS.20</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img4.png" class="card-img-top product-img">
+                          <h5 class="card-title">Geru Powder</h5>
+                          <h6 class="price">RS.100</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img5.png" class="card-img-top product-img">
+                          <h5 class="card-title">Immunity Mixture</h5>
+                          <h6 class="price">RS.550</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img6.png" class="card-img-top product-img">
+                          <h5 class="card-title">Soonth Powder</h5>
+                          <h6 class="price">RS.90</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img7.png" class="card-img-top product-img">
+                          <h5 class="card-title">Milk Masala</h5>
+                          <h6 class="price">RS.65</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img8.png" class="card-img-top product-img">
+                          <h5 class="card-title">Tea Masala</h5>
+                          <h6 class="price">RS.250</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <div class="card-body text-center">
+                          <img src="img9.png" class="card-img-top product-img">
+                          <h5 class="card-title">Black Pepper</h5>
+                          <h6 class="price">RS.1000</h4>
+                          <a href="#cart-icon" class="btn signin add-cart">Add To Cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+        <!-----contact---->
+
+      <section id="contact">
+            <div class="container box my-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <img src="contact.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <h1>CONTACT US</h1>
+                        <form class="mb-3">
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                            <input type="email" class="form-control" placeholder="Enter your mail">
+                            <textarea class="form-control" placeholder="Enter your message"></textarea>
+                            <button class="btn signin">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+      </section>
+    <footer>THANKYOU!</footer>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
